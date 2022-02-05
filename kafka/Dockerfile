@@ -8,4 +8,5 @@ FROM openjdk:8-jdk-slim
 COPY --from=download /kafka /opt/kafka
 EXPOSE 9093/tcp
 EXPOSE 9092/tcp
+LABEL org.opencontainers.image.source https://github.com/drydock-app/library
 CMD ["/opt/kafka/bin/kafka-server-start.sh","/etc/kafka/server.properties"]
