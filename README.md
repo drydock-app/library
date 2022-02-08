@@ -2,7 +2,8 @@
 
 This repository contains several useful container image definitions.
 These images are built using DryDock's advanced image building platform.
-DryDock keeps these images up-to-date with security patches by continuously
+
+> DryDock keeps these images up-to-date with security patches by continuously
 scanning base image tags.
 
 | Name | Status | URI |
