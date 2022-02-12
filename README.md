@@ -8,8 +8,8 @@ scanning base image tags.
 
 | Name | Status | URI |
 | ---- | ------ | --- |
-| [Kafka](./kafka) | [![DryDock Status](https://dashboard.drydock.app/api/v1/public/drydock-app/kafka/badge.png)](https://dashboard.drydock.app/drydock-app/kafka/public) | `ghcr.io/drydock-app/kafka:latest` | 
-| [Cachepot](./rust-cachepot) | [![DryDock Status](https://dashboard.drydock.app/api/v1/public/drydock-app/cachepot/badge.png)](https://dashboard.drydock.app/drydock-app/cachepot/public) | `ghcr.io/drydock-app/cachepot:latest` | 
-| [WASM Pack](./wasm-pack) | [![DryDock Status](https://dashboard.drydock.app/api/v1/public/drydock-app/wasm-pack/badge.png)](https://dashboard.drydock.app/drydock-app/wasm-pack/public) | `ghcr.io/drydock-app/wasm-pack:latest` | 
-| [Cargo Chef](./wasm-pack) | [![DryDock Status](https://dashboard.drydock.app/api/v1/public/drydock-app/chef/badge.png)](https://dashboard.drydock.app/drydock-app/chef/public) | `ghcr.io/drydock-app/cargo-chef:latest` | 
+| [Kafka](./kafka) | [![DryDock Status](https://dashboard.drydock.app/api/v1/public/drydock-app/kafka/badge.png)](https://dashboard.drydock.app/drydock-app/kafka/public) | `drydockapp/kafka:latest` | 
+| [Cachepot](./rust-cachepot) | [![DryDock Status](https://dashboard.drydock.app/api/v1/public/drydock-app/cachepot/badge.png)](https://dashboard.drydock.app/drydock-app/cachepot/public) | `drydockapp/cachepot:latest` | 
+| [WASM Pack](./wasm-pack) | [![DryDock Status](https://dashboard.drydock.app/api/v1/public/drydock-app/wasm-pack/badge.png)](https://dashboard.drydock.app/drydock-app/wasm-pack/public) | `drydockapp/wasm-pack:latest` | 
+| [Cargo Chef](./wasm-pack) | [![DryDock Status](https://dashboard.drydock.app/api/v1/public/drydock-app/chef/badge.png)](https://dashboard.drydock.app/drydock-app/chef/public) | `drydockapp/cargo-chef:latest` | 
 
