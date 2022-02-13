@@ -3,10 +3,9 @@
 This repository contains several useful container image definitions.
 These images are built using DryDock's advanced image building platform.
 
-> DryDock keeps these images up-to-date with security patches by continuously
-scanning base image tags.
+> Security note: DryDock keeps these images up-to-date with security patches by [monitoring base image tags](https://drydock.app/security/?utm_source=github&utm_medium=repository&utm_campaign=library&utm_content=security_note).
 
-| Name | Status | URI |
+| Name | Status (click for build logs) | DockerHub Image URI |
 | ---- | ------ | --- |
 | [Kafka](./kafka) | [![DryDock Status](https://dashboard.drydock.app/api/v1/public/drydock-app/kafka/badge.png)](https://dashboard.drydock.app/drydock-app/kafka/public) | `drydockapp/kafka:latest` | 
 | [Cachepot](./rust-cachepot) | [![DryDock Status](https://dashboard.drydock.app/api/v1/public/drydock-app/cachepot/badge.png)](https://dashboard.drydock.app/drydock-app/cachepot/public) | `drydockapp/cachepot:latest` | 
