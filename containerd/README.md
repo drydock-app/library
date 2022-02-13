@@ -8,7 +8,7 @@ It is useful for experimenting with `containerd` or CNI configuration, or develo
 [Container Runtime Interface (CRI)](https://github.com/kubernetes/cri-api). 
 
 By default, the CNI is configured with a [loopback](./etc/cni/99-loopback.conf) and
-[bridge](./etc/cni/10-bridge.conf) interface, and `containerd` is [configured](./etc/config.toml)
+[bridge](./etc/cni/10-bridge.conf) interface, and `containerd` is [configured](./etc/containerd/config.toml)
 to use the `native` snapshotter for maximum compatibility. For everything to work, you must run the
 container in `privileged` mode with `host` networking:
 
