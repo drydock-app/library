@@ -12,9 +12,6 @@ By default, the CNI is configured with a [loopback](./etc/cni/99-loopback.conf) 
 to use the `native` snapshotter for maximum compatibility. For everything to work, you must run the
 container in `privileged` mode with `host` networking:
 
-```
-docker run -it \ 
-    --network host \
-    --privileged \
-    drydockapp/containerd:latest
+```bash
+docker run -it --network host --privileged drydockapp/containerd:latest
 ```

@@ -25,7 +25,7 @@ RUN wget -q https://github.com/opencontainers/runc/releases/download/v$RUNC_VERS
     mv runc.amd64 /bin/runc && \
     chmod +x /bin/runc
 
-ADD etc/cni /etc/cni
+ADD etc/cni /etc/cni/net.d
 ADD etc/containerd /etc/containerd
 
 LABEL org.opencontainers.image.source https://github.com/drydock-app/library
