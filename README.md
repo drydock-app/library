@@ -11,5 +11,6 @@ scanning base image tags.
 | [Kafka](./kafka) | [![DryDock Status](https://dashboard.drydock.app/api/v1/public/drydock-app/kafka/badge.png)](https://dashboard.drydock.app/drydock-app/kafka/public) | `drydockapp/kafka:latest` | 
 | [Cachepot](./rust-cachepot) | [![DryDock Status](https://dashboard.drydock.app/api/v1/public/drydock-app/cachepot/badge.png)](https://dashboard.drydock.app/drydock-app/cachepot/public) | `drydockapp/cachepot:latest` | 
 | [WASM Pack](./wasm-pack) | [![DryDock Status](https://dashboard.drydock.app/api/v1/public/drydock-app/wasm-pack/badge.png)](https://dashboard.drydock.app/drydock-app/wasm-pack/public) | `drydockapp/wasm-pack:latest` | 
-| [Cargo Chef](./wasm-pack) | [![DryDock Status](https://dashboard.drydock.app/api/v1/public/drydock-app/chef/badge.png)](https://dashboard.drydock.app/drydock-app/chef/public) | `drydockapp/cargo-chef:latest` | 
+| [Cargo Chef](./cargo-chef) | [![DryDock Status](https://dashboard.drydock.app/api/v1/public/drydock-app/chef/badge.png)](https://dashboard.drydock.app/drydock-app/chef/public) | `drydockapp/cargo-chef:latest` | 
+| [containerd](./containerd) | [![DryDock Status](https://dashboard.drydock.app/api/v1/public/drydock-app/containerd/badge.png)](https://dashboard.drydock.app/drydock-app/containerd/public) | `drydockapp/containerd:latest` | 
 
